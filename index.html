@@ -7,6 +7,12 @@
 
   gtag('config', 'G-6Z2356NEEQ');
 </script>
+<script>
+  function fireHit(){
+    gtag('event', 'foo');
+  }
+</script>
 <body>
   <h1>Test</h1>
+  <button onclick="fireHit()"></button>
 </body>
